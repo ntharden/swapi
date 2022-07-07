@@ -28,11 +28,35 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: whitesmoke;
+}
+
+.starship-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.starship-detail {
+  background-color: slategray;
+  width: 200px;
+  font-size: 10px;
+}
+
+.starship-div {
+  margin: 10px;
+  padding: 10px;
+  height: 75px;
+  width: 150px;
+  background-color: slategray;
+}
+
+.Nav-header {
+  background-color: navy;
+  width: 100%;
 }
